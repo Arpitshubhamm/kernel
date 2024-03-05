@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Make sure to always install these packages to avoid build error abour rsycn, bison and flex
-sudo apt-get install bison flex rsycn -y
+sudo apt-get install bison flex rsync -y
 
 # Make sure repo is installed
 mkdir -p ~/bin
